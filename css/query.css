@@ -1,0 +1,213 @@
+/* Not use px in media query */
+/* rem and em do not depend upon html font size in media query instead we assume that 1 rem = 1 em = 16 px */
+/* Always use em in media query */
+
+/* Below 1344px(smaller computer */
+@media (max-width: 84em) {              /*1300/16 = 84.34*/
+    .hero {
+        max-width: 120rem;
+    }
+
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.6rem;
+        padding: 1.6rem;
+    }
+}
+
+/* below 1200px( landscape tablet) */
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .grid {
+        column-gap: 4.8re;
+    }
+
+    .heading-secondary {
+        font-size: 3.6rem;
+    }
+
+    .heading-tertiary {
+        font-size: 2.4rem;
+    }
+
+    .header {
+        padding: 0 3.2rem;
+    }
+
+    .hero {
+        gap: 4.8rem;
+    }
+
+    .main-nav-list {
+        gap: 3.2rem;
+    }
+
+    .testimonials-container {
+        padding: 9.6rem 3.2rem;
+    }
+}
+
+/* for 944px (Tablets) */
+
+@media (max-width: 59rem) {
+    html {
+        font-size: 50%;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+        gap: 6.4rem;
+    }
+
+    .hero-txt-box,
+    .hero-img-box {
+        text-align: center;
+    } 
+
+    .hero-img {
+        width: 60%;
+    }
+
+    .delivered-meals {
+        justify-content: center;
+        margin-top: 3.2rem;
+    }
+
+    .logos {
+        padding: 0 3.2rem;
+    }
+
+    .step-number {
+        font-size: 7.4rem;
+    }
+
+    .meal-content {
+        padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    }
+
+    .section-testimonials {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: 0px;
+    }
+
+    .logos img {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .cta {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .cta-form {
+        grid-template-columns: 1fr;
+    }
+
+    .btn--form {
+        color: white;
+        justify-self: normal;
+        margin: 1.2rem 0;
+        align-self: normal;
+        background-color: black;
+    }
+
+    .btn--form:hover {
+        background-color: #d6a5a1;
+    }
+
+    .btn--form {
+        margin-top: 1.2rem ;
+    }
+
+    /* Mobile navigation*/
+    .btn-mobile-nav {
+        display: block;
+        z-index: 999;
+    }
+
+    .main-nav {
+        background-color: rgba(255, 255, 255, 0.97);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+        z-index: 999;
+        transition: all 0.5s ease-in;
+
+        /* Hide navigation */
+        /* Allows no transition at all */
+        /* display: none; */
+
+        /* 1) Hide it visually */
+        opacity: 0;
+
+        /* 2) Make it unaccessible to mouse and keyboard */
+        pointer-events: none;           /*clever trick to make sure hidden elements don’t accidentally block interactions.*/
+
+        /* 3) Hide it from screen readers */
+        visibility: hidden;
+    }
+
+    .nav-open .main-nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .main-nav-list {
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 3rem;
+    }
+
+    .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+    }
+
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+    }
+}
+
+/* Below 704px(Small tablet) */
+
+@media (max-width: 44em) {
+    .grid--3-cols, .grid--4-cols {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .diets {
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+
+    .heading-secondary {
+        margin-bottom: 4.8rem;
+    }
+}
