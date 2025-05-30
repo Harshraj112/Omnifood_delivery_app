@@ -25,10 +25,10 @@ A responsive and visually appealing food delivery website built using **HTML** a
 
 ## 📸 Screenshots
 
-<img width="1440" alt="Screenshot 1" src="https://github.com/user-attachments/assets/a2e1e0bf-0873-4451-9bf2-296e40085b36" />
-<img width="1439" alt="Screenshot 2" src="https://github.com/user-attachments/assets/96067ae1-d830-4278-8561-164fc70482bf" />
-<img width="1436" alt="Screenshot 3" src="https://github.com/user-attachments/assets/c3702dc8-cddf-46d2-8640-cbe5f02546cd" />
-<img width="1440" alt="Screenshot 4" src="https://github.com/user-attachments/assets/7cf3a0a3-2134-46a0-a2c8-8fff11391d91" />
+<img width="1440" alt="Screenshot 1" src="https://github.com/user-attachments/assets/7cf3a0a3-2134-46a0-a2c8-8fff11391d91" />
+<img width="1436" alt="Screenshot 2" src="https://github.com/user-attachments/assets/c3702dc8-cddf-46d2-8640-cbe5f02546cd" />
+<img width="1439" alt="Screenshot 3" src="https://github.com/user-attachments/assets/96067ae1-d830-4278-8561-164fc70482bf" />
+<img width="1440" alt="Screenshot 4" src="https://github.com/user-attachments/assets/a2e1e0bf-0873-4451-9bf2-296e40085b36" />
 
 
 ## 📬 Contact
