@@ -243,6 +243,10 @@
         grid-template-columns: 1fr;
     }
 
+    .btn {
+        margin-bottom: 23px;
+    }
+
     .btn,
     .btn:link,
     .btn:visited {
