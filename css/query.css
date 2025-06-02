@@ -247,6 +247,10 @@
         margin-bottom: 23px;
     }
 
+    .btn--outline {
+        transform: translateX(-8px);
+    }
+
     .btn,
     .btn:link,
     .btn:visited {
