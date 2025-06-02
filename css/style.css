@@ -56,7 +56,6 @@ body {
   font-weight: 400;
   color: #555;
   background-color: #fdf2e9;
-
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
