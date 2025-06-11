@@ -233,6 +233,10 @@
     .logo {
         height: 10rem;
     }
+
+    .sticky .header {
+        display: none;
+    }
 }
 
 /* Below 544px(Phone) */
