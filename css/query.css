@@ -307,4 +307,8 @@
     .cta-text-box {
         padding: 3.2rem;
     }
+
+    .logo {
+        transform: translateY(6.2rem);
+    }
 }
